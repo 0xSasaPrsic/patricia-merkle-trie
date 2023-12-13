@@ -30,6 +30,33 @@ impl<H: Hasher<Out = H256>> TrieLayout for EIP1186Layout<H> {
 	type Codec = node_codec::RlpNodeCodec<H>;
 }
 
+
+
+
+
+pub mod keccak256 {
+	use hash256_std_hasher::Hash256StdHasher;
+	use sp_io::hashing::keccak_256;
+
+	use super::*;
+
+	/// Concrete implementation of Hasher using Keccak 256-bit hashes
+	#[derive(Debug)]
+	pub struct KeccakHasher;
+
+	impl hash_db::Hasher for KeccakHasher {
+		type Out = H256;
+		type StdHasher = Hash256StdHasher;
+		const LENGTH: usize = 32;
+
+		fn hash(x: &[u8]) -> Self::Out {
+			keccak_256(x).into()
+		}
+	}
+}
+
+
+
 /// Keccak hasher implementation, but only for std uses. You'd probably want to delegate
 /// hashing to wasm host functions in `no_std`.
 #[cfg(feature = "std")]
