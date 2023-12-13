@@ -14,7 +14,7 @@ codec = { package = "parity-scale-codec", version = "3.0.0", default-features = 
 sp-io = { git = "https://github.com/paritytech/substrate.git", branch = "polkadot-v1.0.0", default-features = false }
 
 
-hash256-std-hasher = { version = "0.15.2", optional = true }
+hash256-std-hasher = { version = "0.15.2", default-features = false }
 tiny-keccak = { version = "2.0.2", features = ["keccak"],  optional = true }
 
 [dev-dependencies]
@@ -29,7 +29,6 @@ std = [
     "codec/std",
     "sp-io/std",
     "tiny-keccak",
-    "hash256-std-hasher",
     "trie-db/std",
     "hash-db/std",
     "rlp/std",

@@ -30,10 +30,6 @@ impl<H: Hasher<Out = H256>> TrieLayout for EIP1186Layout<H> {
 	type Codec = node_codec::RlpNodeCodec<H>;
 }
 
-
-
-
-
 pub mod keccak256 {
 	use hash256_std_hasher::Hash256StdHasher;
 	use sp_io::hashing::keccak_256;
