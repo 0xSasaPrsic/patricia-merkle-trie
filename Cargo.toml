@@ -11,7 +11,7 @@ rlp = { version = "0.5.1", default-features = false }
 primitive-types = { version = "0.12.0", default-features = false }
 memory-db = { version = "0.30.0", default-features = false }
 codec = { package = "parity-scale-codec", version = "3.0.0", default-features = false, features = ["derive"] }
-sp-io = { git = "https://github.com/paritytech/substrate.git", branch = "polkadot-v1.0.0", default-features = false }
+sp-io = { git = "https://github.com/markopoloparadox/substrate.git", branch = "marko/babe-fix", default-features = false }
 
 
 hash256-std-hasher = { version = "0.15.2", default-features = false }
