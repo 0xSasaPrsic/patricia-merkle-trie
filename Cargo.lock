@@ -2465,7 +2465,7 @@ dependencies = [
 [[package]]
 name = "sp-core"
 version = "21.0.0"
-source = "git+https://github.com/availproject/polkadot-sdk.git?tag=polkadot-v1.6.0#481165d92297d7dfd5eaf9c7f442441761fc0a12"
+source = "git+https://github.com/availproject/polkadot-sdk.git?tag=polkadot-v1.6.0-patch#cd9bf4752239899ac1059d366a7e717cad30648d"
 dependencies = [
  "array-bytes",
  "bandersnatch_vrfs",
@@ -2511,7 +2511,7 @@ dependencies = [
 [[package]]
 name = "sp-core-hashing"
 version = "9.0.0"
-source = "git+https://github.com/availproject/polkadot-sdk.git?tag=polkadot-v1.6.0#481165d92297d7dfd5eaf9c7f442441761fc0a12"
+source = "git+https://github.com/availproject/polkadot-sdk.git?tag=polkadot-v1.6.0-patch#cd9bf4752239899ac1059d366a7e717cad30648d"
 dependencies = [
  "blake2b_simd",
  "byteorder",
@@ -2545,7 +2545,7 @@ dependencies = [
 [[package]]
 name = "sp-debug-derive"
 version = "8.0.0"
-source = "git+https://github.com/availproject/polkadot-sdk.git?tag=polkadot-v1.6.0#481165d92297d7dfd5eaf9c7f442441761fc0a12"
+source = "git+https://github.com/availproject/polkadot-sdk.git?tag=polkadot-v1.6.0-patch#cd9bf4752239899ac1059d366a7e717cad30648d"
 dependencies = [
  "proc-macro2",
  "quote",
@@ -2565,7 +2565,7 @@ dependencies = [
 [[package]]
 name = "sp-externalities"
 version = "0.19.0"
-source = "git+https://github.com/availproject/polkadot-sdk.git?tag=polkadot-v1.6.0#481165d92297d7dfd5eaf9c7f442441761fc0a12"
+source = "git+https://github.com/availproject/polkadot-sdk.git?tag=polkadot-v1.6.0-patch#cd9bf4752239899ac1059d366a7e717cad30648d"
 dependencies = [
  "environmental",
  "parity-scale-codec",
@@ -2587,7 +2587,7 @@ dependencies = [
 [[package]]
 name = "sp-io"
 version = "23.0.0"
-source = "git+https://github.com/availproject/polkadot-sdk.git?tag=polkadot-v1.6.0#481165d92297d7dfd5eaf9c7f442441761fc0a12"
+source = "git+https://github.com/availproject/polkadot-sdk.git?tag=polkadot-v1.6.0-patch#cd9bf4752239899ac1059d366a7e717cad30648d"
 dependencies = [
  "bytes",
  "ed25519-dalek",
@@ -2611,7 +2611,7 @@ dependencies = [
 [[package]]
 name = "sp-keystore"
 version = "0.27.0"
-source = "git+https://github.com/availproject/polkadot-sdk.git?tag=polkadot-v1.6.0#481165d92297d7dfd5eaf9c7f442441761fc0a12"
+source = "git+https://github.com/availproject/polkadot-sdk.git?tag=polkadot-v1.6.0-patch#cd9bf4752239899ac1059d366a7e717cad30648d"
 dependencies = [
  "parity-scale-codec",
  "parking_lot",
@@ -2623,7 +2623,7 @@ dependencies = [
 [[package]]
 name = "sp-panic-handler"
 version = "8.0.0"
-source = "git+https://github.com/availproject/polkadot-sdk.git?tag=polkadot-v1.6.0#481165d92297d7dfd5eaf9c7f442441761fc0a12"
+source = "git+https://github.com/availproject/polkadot-sdk.git?tag=polkadot-v1.6.0-patch#cd9bf4752239899ac1059d366a7e717cad30648d"
 dependencies = [
  "backtrace",
  "lazy_static",
@@ -2633,7 +2633,7 @@ dependencies = [
 [[package]]
 name = "sp-runtime-interface"
 version = "17.0.0"
-source = "git+https://github.com/availproject/polkadot-sdk.git?tag=polkadot-v1.6.0#481165d92297d7dfd5eaf9c7f442441761fc0a12"
+source = "git+https://github.com/availproject/polkadot-sdk.git?tag=polkadot-v1.6.0-patch#cd9bf4752239899ac1059d366a7e717cad30648d"
 dependencies = [
  "bytes",
  "impl-trait-for-tuples",
@@ -2669,7 +2669,7 @@ dependencies = [
 [[package]]
 name = "sp-runtime-interface-proc-macro"
 version = "11.0.0"
-source = "git+https://github.com/availproject/polkadot-sdk.git?tag=polkadot-v1.6.0#481165d92297d7dfd5eaf9c7f442441761fc0a12"
+source = "git+https://github.com/availproject/polkadot-sdk.git?tag=polkadot-v1.6.0-patch#cd9bf4752239899ac1059d366a7e717cad30648d"
 dependencies = [
  "Inflector",
  "expander",
@@ -2695,7 +2695,7 @@ dependencies = [
 [[package]]
 name = "sp-state-machine"
 version = "0.28.0"
-source = "git+https://github.com/availproject/polkadot-sdk.git?tag=polkadot-v1.6.0#481165d92297d7dfd5eaf9c7f442441761fc0a12"
+source = "git+https://github.com/availproject/polkadot-sdk.git?tag=polkadot-v1.6.0-patch#cd9bf4752239899ac1059d366a7e717cad30648d"
 dependencies = [
  "hash-db 0.16.0",
  "log",
@@ -2716,7 +2716,7 @@ dependencies = [
 [[package]]
 name = "sp-std"
 version = "8.0.0"
-source = "git+https://github.com/availproject/polkadot-sdk.git?tag=polkadot-v1.6.0#481165d92297d7dfd5eaf9c7f442441761fc0a12"
+source = "git+https://github.com/availproject/polkadot-sdk.git?tag=polkadot-v1.6.0-patch#cd9bf4752239899ac1059d366a7e717cad30648d"
 
 [[package]]
 name = "sp-std"
@@ -2726,7 +2726,7 @@ source = "git+https://github.com/paritytech/polkadot-sdk#5ba8921787609dddbabb8be
 [[package]]
 name = "sp-storage"
 version = "13.0.0"
-source = "git+https://github.com/availproject/polkadot-sdk.git?tag=polkadot-v1.6.0#481165d92297d7dfd5eaf9c7f442441761fc0a12"
+source = "git+https://github.com/availproject/polkadot-sdk.git?tag=polkadot-v1.6.0-patch#cd9bf4752239899ac1059d366a7e717cad30648d"
 dependencies = [
  "impl-serde",
  "parity-scale-codec",
@@ -2752,7 +2752,7 @@ dependencies = [
 [[package]]
 name = "sp-tracing"
 version = "10.0.0"
-source = "git+https://github.com/availproject/polkadot-sdk.git?tag=polkadot-v1.6.0#481165d92297d7dfd5eaf9c7f442441761fc0a12"
+source = "git+https://github.com/availproject/polkadot-sdk.git?tag=polkadot-v1.6.0-patch#cd9bf4752239899ac1059d366a7e717cad30648d"
 dependencies = [
  "parity-scale-codec",
  "sp-std 8.0.0",
@@ -2776,7 +2776,7 @@ dependencies = [
 [[package]]
 name = "sp-trie"
 version = "22.0.0"
-source = "git+https://github.com/availproject/polkadot-sdk.git?tag=polkadot-v1.6.0#481165d92297d7dfd5eaf9c7f442441761fc0a12"
+source = "git+https://github.com/availproject/polkadot-sdk.git?tag=polkadot-v1.6.0-patch#cd9bf4752239899ac1059d366a7e717cad30648d"
 dependencies = [
  "ahash 0.8.6",
  "hash-db 0.16.0",
@@ -2800,7 +2800,7 @@ dependencies = [
 [[package]]
 name = "sp-wasm-interface"
 version = "14.0.0"
-source = "git+https://github.com/availproject/polkadot-sdk.git?tag=polkadot-v1.6.0#481165d92297d7dfd5eaf9c7f442441761fc0a12"
+source = "git+https://github.com/availproject/polkadot-sdk.git?tag=polkadot-v1.6.0-patch#cd9bf4752239899ac1059d366a7e717cad30648d"
 dependencies = [
  "anyhow",
  "impl-trait-for-tuples",
